@@ -8,7 +8,7 @@ const productoRoutes = require('./routes/productoRoutes');
 
 //cors
 app.use(cors())
-////Morgan
+//Morgan
 app.use(morgan('dev'));
 
 app.use(express.json());
