@@ -4,7 +4,7 @@ const morgan = require('morgan');
 const body= require('body-parser')
 const cors= require('cors')
 
-const productoRoutes = require('./routes/productoRoutes');
+const productoRoutes = require('./src/routes/productoRoutes');
 
 //cors
 app.use(cors())
